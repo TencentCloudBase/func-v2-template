@@ -1,11 +1,6 @@
 // 函数实例日志
 console.log('[log] func initialization started.')
 
-// 函数实例日志
-setInterval(() => { 
-  console.log('[log] this is a interval log out of main function')
-}, 1000)
-
 exports.main = function(event, context) {
   console.log('[log] this is a log in main function')
 
