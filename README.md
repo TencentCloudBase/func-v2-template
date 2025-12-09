@@ -1,10 +1,10 @@
-# 函数型云托管示例代码
+# 云托管函数型框架示例代码
 
-该示例代码演示如何通过 `TypeScript` 编写 `函数型云托管示例代码` 项目代码。包括项目结构示例，以及调试。
+该示例代码演示如何通过 `TypeScript` 编写 `云托管函数型框架示例代码` 项目代码。包括项目结构示例，以及调试。
 
-> 注意：该示例项目主要展示一个完整的云函数，即，整个项目从根目录开始即为一个云函数。
-> 实际项目中会包括多个云函数，以及项目中其他部分的项目代码，例如项目前端代码。
-> 所以，在一个实际的项目中，该函数代码通常对应 `项目根路径/cloudrunfunctions/func-v2-template` 目录。
+> 注意：该示例项目主要展示一个完整的可构建函数，即，整个项目从根目录开始即为一个函数。
+> 实际项目中会包括多个函数，以及项目中其他部分的项目代码，例如项目前端代码。
+> 所以，在一个实际的项目中，该代码通常对应 `项目根路径/cloudrunfunctions/func-v2-template` 目录。
 
 更完整的示例项目代码可参考：[TypeScript 示例代码](https://github.com/TencentCloudBase/cloudbase-examples/tree/master/cloudrunfunctions/ts-multiple-functions)
 
@@ -55,7 +55,7 @@ Q：为什么 `src/ws` 等函数目录中存在 `package.json` 文件？
 
 ## 如何部署？
 
-可在云开发平台创建 `函数型云托管` 服务后上传本示例代码包进行部署。
+可在云开发平台创建 `云托管` 服务后上传本示例代码包进行部署。
 
 注意：如果通过 `Github Download zip` 方式下载的代码包，因多一层目录，需要解压后重新将文件压缩到根路径后再上传，或者上传解压后的目录。
 
@@ -67,4 +67,4 @@ zip -x '/*.git/*' -x '.gitignore' -x '.DS_Store' -x 'node_modules/*' -r code.zip
 
 ## 相关链接
 
-* [腾讯云云开发-函数型云托管](https://docs.cloudbase.net/cbrf/intro)
+* [腾讯云云开发-云托管函数型框架](https://docs.cloudbase.net/cbrf/intro)

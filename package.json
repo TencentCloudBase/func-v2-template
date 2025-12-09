@@ -1,7 +1,7 @@
 {
   "name": "func-v2-template",
   "version": "1.0.0",
-  "description": "函数型云托管示例代码",
+  "description": "云托管函数型开发框架示例代码",
   "main": "index.js",
   "author": "",
   "license": "ISC",
